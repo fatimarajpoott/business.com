@@ -1,0 +1,493 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* first-Section */
+
+.logo {
+    padding: 22px;
+}
+
+.logo img {
+    width: 96px;
+}
+
+.humburger {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* top: 0; */
+    cursor: pointer;
+}
+
+.nav-list {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 2rem;
+    display: block;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+.background {
+    background: url("image\ 43.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #17617e;
+}
+
+.first p {
+    color: white;
+
+}
+
+.box-main {
+    font-family: jost;
+
+    max-width: 50%;
+    padding-top: 12%;
+    padding-left: 4%;
+}
+
+.firstSection {
+    height: 80vh;
+}
+
+.first {
+    font-size: 45px;
+}
+
+.button {
+    padding-top: 50px;
+}
+
+.btn:hover {
+    color: #cb8e1e;
+    background-color: white;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 13px 45px;
+    border: 3px solid transparent;
+    background-color: #cb8e1e;
+    color: white;
+}
+
+/* Second-Section */
+
+.second-sec {
+    margin-top: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-us {
+    width: 50%;
+    text-align: initial;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    font-family: jost;
+}
+
+.about-us p {
+    font-family: jost;
+    padding-top: 2%;
+    line-height: 30px;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 52%;
+}
+
+/* Third Section */
+
+.offering {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.offering h2 {
+    font-size: 28px;
+    font-family: jost;
+}
+
+.offering p {
+    font-family: jost;
+    margin-top: 1.2%;
+    font-size: 14px;
+}
+
+.main-div {
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.first-div {
+    display: flex;
+}
+
+.second-div {
+    display: flex;
+}
+
+.oracle {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #cbcaca;
+    margin-right: 2%;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.oracle-img img {
+    width: 100%;
+}
+
+.cloud {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #cbcaca;
+    margin-right: 2%;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.cloud-img img {
+    width: 100%;
+}
+
+.business {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #cbcaca;
+    margin-right: 2%;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.business-img img {
+    width: 100%;
+}
+
+.resourse {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #cbcaca;
+    margin-right: 2%;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.resourse-img img {
+    width: 100%;
+}
+
+.btn-1 {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: #6451af;
+}
+
+.btn-2:hover {
+    color: #6451af;
+    background-color: white;
+    border: 1px solid #6451af;
+
+}
+
+/* Forth-Section */
+
+.partner {
+    margin-top: 3%;
+}
+
+.partner h1 {
+    font-family: jost;
+    text-align: center;
+    line-height: 2;
+}
+
+.partner p {
+    font-family: jost;
+    width: 98%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.horizontal {
+    display: flex;
+    margin-top: 2%;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1220px) {
+
+    /* third-Section */
+
+    .main-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-left: 23%; */
+    }
+
+    .business {
+        padding-top: 1%;
+    }
+
+    .resourse {
+        padding-top: 1%;
+
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    /* First-Section */
+
+    .humburger {
+        display: block;
+        cursor: pointer;
+        padding-right: 35px;
+    }
+
+    .humburger .line {
+        width: 30px;
+        height: 3px;
+        background: rgb(254, 254, 254);
+        margin: 6px 0;
+    }
+
+    .nav-list {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgb(0, 0, 0);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    /* First-Section */
+
+    .first p {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:930px) {
+
+    /* second-section */
+
+    .img img {
+        width: 50%;
+    }
+
+    .about-us h2 {
+        font-size: 18px;
+    }
+
+    .about-us p {
+        line-height: 17px;
+        font-size: 13px;
+    }
+
+    /* third-section */
+
+
+
+    /* forth-Section */
+
+    .partner p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:730px) {
+
+    /* Third-Section */
+
+
+
+    /* forth-Section */
+
+    .partner p {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:630px) {
+
+    /* First-Section */
+
+    .logo img {
+        width: 96px;
+    }
+
+    .first p {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 10px 30px;
+
+    }
+
+
+    /* Second-Section */
+
+    .img img {
+        width: 60%;
+    }
+
+    .about-us p {
+        line-height: 17px;
+        font-size: 10px;
+    }
+
+    /* Third-Section */
+
+
+    .offering h2 {
+        font-size: 23px;
+    }
+
+    .offering p {
+        font-size: 11px;
+    }
+
+    .main-div p {
+        font-size: 12px;
+    }
+
+    /* .img-one img {
+        width: 29%;
+    } */
+
+    /* Forth-section */
+
+    .partner h1 {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    /* First-Section */
+
+    .logo img {
+        width: 80px;
+    }
+
+    .first p {
+        font-size: 20px;
+    }
+
+    /* Second-Section */
+
+    .second-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .img img {
+        width: 125%;
+        margin-left: -11px;
+    }
+
+    .about-us {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4%;
+        padding-left: 0%;
+    }
+
+    .about-us h2 {
+        font-size: 23px;
+    }
+
+    .about-us p {
+        line-height: 17px;
+        font-size: 14px;
+    }
+
+    /* Third-Section */
+
+    .main-div h3 {
+        font-size: 13px;
+    }
+
+    .main-div p {
+        font-size: 10px;
+    }
+
+    /* forth-Section */
+
+    .horizontal {
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .partner p {
+        font-size: 14px;
+    }
+}
